@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Self learning ai test</title>
+</head>
+<body></body>
+    <canvas height="900" width="900" id="canvas"></canvas>
+    <canvas height="900" width="900" id="breadcrumbs"></canvas>
+    <button id="startButton">Start</button>
+    <form id="UForm">
+        <label for="file">Upload QTable</label>
+        <input type="file" id="file" name="file" accept=".json">
+        <label for="max">Maximum rounds: </label>
+        <input type="number" id="max" name="max" value="5000" min="100" max="100000">
+        <button type="submit">Set</button>
+    </form>
+    <button id="download">Download QTable</button>
+    <script type="module" src="Scripts/ai.js"></script>
+    <button id="movon">Moving target on</button>
+    <button id="movoff">Moving target off</button>
+</body>
+</html>

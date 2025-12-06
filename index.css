@@ -1,0 +1,15 @@
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+#canvas {
+    z-index: 1;
+}
+
+#breadcrumbs {
+    z-index: 0;
+}
+
